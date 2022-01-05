@@ -1,0 +1,68 @@
+
+.home-heading {
+  text-align: center;
+  font-size: 2.5em !important;
+  font-weight: bold;
+  color: var(--p_green);
+}
+.testimonials-p {
+  font-size: 1.4em;
+}
+.people {
+  color: var(--body_text);
+  background-image: linear-gradient(to right, var(--p_light) , var(--s_dark));
+  align-items: center;
+  box-shadow: 20em rgba(255, 255, 255, 0.1);
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
+  box-shadow:  0em 1em 2em 0em rgba(218, 218, 218, 0.514);
+  border-radius: 0.6em;
+  border: 4mm ridge rgba(0, 0, 0, 0.6);
+}
+.people .img {
+  width: 110px;
+  border-radius: 30%;
+  height: 110px;
+  position: relative;
+  margin-bottom: 1em;
+
+}
+.people h4 {
+  font-size: 1.8em;
+  
+}
+.testimonials {
+  display: flex;
+  align-items: stretch;
+  width: 75%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.testimonials-p {
+  
+  font-size: 0.8em;
+  margin: 0.8em;
+  line-height: 2;
+}
+@media screen and (max-width: 1000px) {
+  .people {
+    height: auto; 
+  }
+}
+@media screen and (max-width: 900px) {
+   .testimonials {
+    flex-direction: column;
+    width: 50%;
+  }
+  .people {
+    margin: 3em auto 1em;
+  }
+}
+@media screen and (max-width: 570px) {
+  .testimonials {
+    width: 80%;
+  }
+}
+

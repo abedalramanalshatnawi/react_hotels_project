@@ -1,0 +1,151 @@
+.slider {
+    position: relative;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .imageSlider {
+    width: 20em;
+    height: 20em;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    
+  }
+  
+  .right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 500px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 500px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+  }
+  
+  .slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+  }
+
+
+  h2{
+    text-align: center;
+    font-size: 2.5em !important;
+    font-weight: bold;
+    color: var(--p_green);
+  
+    
+  }
+
+
+
+
+  @media screen and (max-width: 1500px) {
+    .right-arrow {
+      right: 350px;
+    }
+
+    .left-arrow {
+      left: 350px;
+    }
+  }
+
+
+  @media screen and (max-width: 1200px) {
+    .right-arrow {
+      right: 250px;
+    }
+
+    .left-arrow {
+      left: 250px;
+    }
+
+  }
+
+
+  @media screen and (max-width: 1000px) {
+    .right-arrow {
+      right: 150px;
+    }
+
+    .left-arrow {
+      left: 150px;
+    }
+    
+  }
+
+
+  
+  @media screen and (max-width: 800px) {
+    .right-arrow {
+      right: 20px;
+    }
+
+    .left-arrow {
+      left: 20px;
+    }
+    
+  }
+
+
+  
+  @media screen and (max-width: 500px) {
+
+
+    .slider {
+      height: 70vh;
+    }  
+
+    .right-arrow {
+      right: 5px;
+    }
+
+    .left-arrow {
+      left: 5px;
+    }
+    
+  }
+
+
+
+
+  @media screen and (max-width: 470px) {
+
+    .imageSlider {
+      width: 10em;
+      height: 15em;
+     
+      
+    }
+    .right-arrow {
+      right: 5px;
+    }
+
+    .left-arrow {
+      left: 5px;
+    }
+    
+  }
+
+
+  

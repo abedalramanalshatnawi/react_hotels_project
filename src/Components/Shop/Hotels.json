@@ -1,0 +1,101 @@
+[
+  {
+    "id": "1",
+    "name": "Baglioni Hotel",
+    "city": "London ",
+    "stars": "5 stars",
+    "year": "2004",
+    "price": "70",
+    "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/48/8f/65/suite.jpg?w=900&h=-1&s=1"
+  },
+  {
+    "id": "2",
+    "name": "The Montcalm",
+    "city": "Albania ",
+    "stars": "4 stars",
+    "year": "1988",
+    "price": "65",
+    "img": "https://s5s6c2i4.stackpathcdn.com/wp-content/uploads/2018/12/2_Baglioni_Hotel_London_Lobby.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Cadogan Gardens Hotel",
+    "city": "Luanda",
+    "stars": "4 stars",
+    "year": "2010",
+    "price": "45",
+    "img": "https://cf.bstatic.com/xdata/images/hotel/270x200/6894316.jpg?k=a2772b5b89386f0f9e8c40e5bba61e3de534c50ca0961c44943ae98aa5212a6c&o="
+  },
+  {
+    "id": "4",
+    "name": "Best Western Mornington Hotel",
+    "city": " Buenos Aires ",
+    "stars": "3 stars",
+    "year": "1965",
+    "price": "30",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP4-2TzINo-6WKIy1wj4jFZlX1BVROvYxCdg&usqp=CAU"
+  },
+  {
+    "id": "5",
+    "name": "The Langham Hotel",
+    "city": " Yerevan ",
+    "stars": "5 stars",
+    "year": "1999",
+    "price": "50",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCw1C5aDayDLWSKn0YGctmBqqs5zjNKccHRw&usqp=CAU"
+  },
+  {
+    "id": "6",
+    "name": "ME Hotel",
+    "city": " Canberra ",
+    "stars": "4 stars",
+    "year": "2009",
+    "price": "60",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_AjbcUwll_AhNr3A3BLwycVOZL-EagoR0WW0spZ1qExcFm40_AVO84ReW-Z82JZtaYNI&usqp=CAU"
+  },
+  {
+    "id": "7",
+    "name": "Park Plaza Westminster Bridge Hotel",
+    "city": " Vienna ",
+    "stars": "3 stars",
+    "year": "2019",
+    "price": "25",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVM_AFhHldMK8upXNt_q2WUMuCczEJzZ9phw&usqp=CAU"
+  },
+  {
+    "id": "8",
+    "name": "St Martins Lane Hotel",
+    "city": " Baku ",
+    "stars": "5 stars",
+    "year": "1904",
+    "price": "70",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi4lEcJQ2v0yRTIFyaiCkFDdQux3_M2UDp9w&usqp=CAU"
+  },
+  {
+    "id": "9",
+    "name": "The Piccadilly Hotel",
+    "city": " Nassau ",
+    "stars": "5 stars",
+    "year": "1988",
+    "price": "95",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyvBa9nYW3XeCVPGPqn8_Qr5zQ3Cu2BIeXFQ&usqp=CAU"
+  },
+  {
+    "id": "10",
+    "name": "Radisson Blu Edwardian Hampshire Hotel",
+    "city": " Sofia ",
+    "stars": "4 stars",
+    "year": "1972",
+    "price": "90",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXa3_DlrtfPlGC5uRe6F9GgiNY05U2iYpn1g&usqp=CAU"
+  },
+  {
+    "id": "11",
+    "name": "Marriott Hotel",
+    "city": " Cairo ",
+    "stars": "3 stars",
+    "year": "1950",
+    "price": "80",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyDYtW3yqi2l6qqzfbA3C-j93M6yj4uWqMmA&usqp=CAU"
+  }
+]

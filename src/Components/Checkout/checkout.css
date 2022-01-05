@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#error_coupon {
+  color: red;
+  font-size: 0.9em;
+  margin: 0;
+  padding: 0;
+}
+.checkout-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.checkout-container form {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 1em;
+}
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.checkout-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: max-content;
+  margin-top: 2em;
+  width: 46%;
+  background-color: white;
+  border-style: solid;
+  border-color: var(--p_light);
+  box-shadow: var(--p_light);
+}
+.left-container > label,
+.left-container input {
+  align-self: center;
+  width: 100%;
+  padding: 0.4em;
+}
+.checkout-left p {
+  margin-bottom: 0 !important;
+}
+
+.checkout-summary {
+  width: 46%;
+  align-self: center;
+}
+.checkout-summary > input {
+  width: min-content;
+}
+.checkout-summary table,
+.checkout-summary td {
+  width: 100%;
+  border: 1px solid var(--p_green);
+  padding: 0.2em 0.5em;
+}
+
+.table-grey {
+  background-color: var(--p_light);
+  color: white;
+}
+
+.checkout-payment {
+  display: flex;
+  flex-direction: column;
+  width: 78%;
+  margin-bottom: 1rem;
+}
+.radios {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.payment-msg-container {
+  width: 75%;
+  display: flex;
+  align-items: center;
+}
+
+.payment-msg-container p {
+  font-size: 1em;
+  vertical-align: center;
+  background-color: var(--p_light);
+}
+
+.payment-msg {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-msg-container1 {
+  width: 100%;
+  display: flex;
+}
+
+#one {
+  margin: 5% 15%;
+  color: white;
+}
+
+#two {
+  margin-left: 15%;
+  transition: display 500ms;
+}
+
+.orderBtn {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5em;
+}
+
+.orderBtn button {
+  text-align: center;
+}
+
+#placeOrder {
+  background-color: black;
+  color: white;
+  border-radius: 0.5em;
+  padding: 0.7em 1em;
+  border-style: none;
+}
+#placeOrder:hover {
+  background-color:#fffd79 ;
+  color: black;
+}
+
+@media only screen and (max-width: 800px) {
+  .checkout-left,
+  .checkout-summary {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .payment-msg-container1{
+    justify-content: center;
+  }
+  .payment-msg{
+    align-items: center;
+  }
+  .payment-msg input{
+    width: 70%;
+  }
+}

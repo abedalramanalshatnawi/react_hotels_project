@@ -1,0 +1,36 @@
+.hero-bg {
+  color: black;
+  background-image: url(../../Assets/hero/Hotel11.jpg);
+  background-size: cover;
+  height: 22em;
+  width: 100%;
+  margin-bottom: 1em;
+}
+.overlayHero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.453);
+  height: 22em;
+  width: 100%;
+}
+.hero_title {
+  color: white;
+  font-size: 5em;
+  text-align: center;
+}
+@media only screen and (max-width: 800px) {
+  .hero-bg p {
+    font-size: 4em;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .hero-bg p {
+    font-size: 3.5em;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .hero-bg p {
+    font-size: 3em;
+  }
+}
